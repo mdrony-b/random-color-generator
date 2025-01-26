@@ -1,1 +1,2 @@
-# random-color-generator
+# Random Color Generator
+<img src="random-color-code-preview.png">
