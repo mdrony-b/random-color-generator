@@ -1,0 +1,77 @@
+.wraper {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.randon-color-gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ddd;
+  border-radius: 3px;
+}
+.color-preview {
+  background: orangered;
+  width: 250px;
+  height: 150px;
+  border-radius: 3px 0 0 3px;
+}
+.color-gen {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 1rem;
+}
+.input {
+  width: 100%;
+  background: orangered;
+  border-radius: 3px;
+}
+.input input[type="text"] {
+  border: 1px solid orangered;
+  padding: 0.4rem;
+  width: 85%;
+}
+.input i {
+    color: #fff;
+    transform: translate(.5rem);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.submit {
+  padding-top: 1rem;
+  width: 100%;
+  button {
+    font-family: sans-serif;
+    display: block;
+    background: orangered;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+    width: 100%;
+  }
+}
+.copyed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    span{
+        text-align: center;
+        padding: 0.3rem .5rem;
+        border-radius: 3px;
+        background: orangered;
+        color: #fff;
+    }
+}
+.copy-code{
+    background: #fff;
+    color: orangered;
+    border-radius: 3px;
+    padding: .2rem;
+    margin: 0 .3rem;
+}
